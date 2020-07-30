@@ -1,5 +1,5 @@
 ### WELCOME
-This project is a resume built to show off my basic skills of React, while also telling you about myself. I had no knowledge of React before I started this project. This resume represents my motivation and desire to learn, as well as my ability to teach myself new concepts. I would greatly appreciate any feedback you have to increase my React, HTML, or CSS knowledge. My email is on the "Information" page.
+This project is a resume built to show off my basic skills of React, while also telling you about myself. I had no knowledge of React before I started this project. This resume represents my motivation and desire to learn, as well as my ability to teach myself new concepts. I would greatly appreciate any feedback you have to increase my React, HTML, or CSS knowledge. My email is on the resume pdf that I've applied with.
 
 I would like to thank Facebook for the free React template to work out of. My references can be found below.
 
