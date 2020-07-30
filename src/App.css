@@ -1,4 +1,8 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -28,6 +32,10 @@
   color: #61dafb;
 }
 
+.logo {
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +44,150 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-link {
+  background-color: mediumpurple;
+  border: 1px solid mediumpurple;
+  color: white;
+  padding: 10px 10px;
+  width: 13.35%;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  float: left;
+  text-decoration: none;
+}
+.nav-link:not(:last-child) {
+  margin-right: 5px;
+}
+
+.nav-link:hover {
+  background-color: peachpuff;
+  color: mediumpurple;
+}
+
+.center {
+  width: 800px;
+}
+.activeRoute {
+  background-color: peachpuff;
+  border-bottom: 0.4rem solid mediumpurple;
+  cursor: not-allowed;
+}
+.page-container {
+  border-radius: 3px;
+  background-color: skyblue;
+  margin-top: 50px;
+  padding-top: 10px;
+  color: white;
+  font-family: Damascus;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.page-container h1 {
+  height: 20px;
+  text-decoration: underline;
+}
+
+.information-list li {
+  text-align: left;
+  font-size: 30px;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.page-container a {
+  color: white;
+}
+
+.major-header {
+  height: 5px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.page-container dl {
+  height: 65px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 120px;
+}
+.page-container button {
+  float: left;
+  background-color: mediumpurple;
+  color: white;
+  border-radius: 5px;
+  margin: 10px auto 10px 50px;
+}
+
+.courses {
+  margin: 30px 50px 30px 50px;
+  padding: 20px;
+  background-color: peachpuff;
+  color: mediumpurple;
+  border-radius: 5px;
+}
+.courses-table {
+  font-weight: bold;
+  font-size: 15px;
+  table-layout: fixed;
+}
+.courses-table td {
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.other-work-div {
+  border-radius: 3px;
+  background-color: skyblue;
+  color: white;
+  font-family: Damascus, serif;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.work-table {
+  text-align: left;
+  padding-left: 30px;
+  table-layout: fixed;
+  background-color: peachpuff;
+  margin: 10px;
+  border-radius: 5px;
+  color: mediumpurple;
+}
+.work-table td {
+  width: 325px;
+  vertical-align: top;
+  padding-right: 40px;
+}
+.work-table li {
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: 18px;
+}
+.work-table h2, h3{
+  vertical-align: top;
+  height: 10px;
+}
+
+.work-table h4{
+  height: 3px;
+}
+
+.work-table span {
+  text-decoration: underline;
+}
+
+.work-modal {
+  background-color: mediumpurple;
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  text-align: center;
+}
+
+
