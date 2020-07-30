@@ -1,3 +1,7 @@
+This project is a resume built to show off my basic skills of React, while also telling you about myself. I had no knowledge of React before I started this project. This resume represents my motivation and desire to learn, as well as my ability to teach myself new concepts. I would greatly appreciate any feedback you have to increase my React, HTML, or CSS knowledge. 
+
+I would like to thank Facebook for the free React template to work out of.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
