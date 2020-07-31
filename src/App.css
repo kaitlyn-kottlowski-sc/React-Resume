@@ -152,17 +152,17 @@
 }
 .work-table {
   text-align: left;
-  padding-left: 30px;
+  padding-left: 10px;
   table-layout: fixed;
   background-color: peachpuff;
-  margin: 10px;
+  margin: 15px 50px 10px 50px;
   border-radius: 5px;
   color: mediumpurple;
 }
 .work-table td {
-  width: 325px;
+  width: 400px;
   vertical-align: top;
-  padding-right: 40px;
+  padding-right: 35px;
 }
 .work-table li {
   font-weight: bold;
@@ -176,10 +176,7 @@
 
 .work-table h4{
   height: 3px;
-}
-
-.work-table span {
-  text-decoration: underline;
+  width: 315px;
 }
 
 .work-modal {
