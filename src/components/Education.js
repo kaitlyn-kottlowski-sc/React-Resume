@@ -7,8 +7,7 @@ function Education () {
     return (
         <div className="page-container">
             <h1>Education</h1>
-            <div>
-                <h4>Expected Graduation: May 2020</h4>
+                <h2>Expected Graduation: May 2020</h2>
                 <div>
                     <h2 className="major-header">SIMPSON COLLEGE</h2>
                     <h4 className="major-header"><i>August 2017 - Present</i></h4>
@@ -21,9 +20,7 @@ function Education () {
                     <h3 className="major-header">Overall GPA: 3.743</h3>
                     <button className="show-button" onClick={() => setShow(!show)}>{buttonTitle} coursework</button>
                 </div>
-            </div>
                 {show ? (<Courses/>) : null}
-
         </div>
     )
 }

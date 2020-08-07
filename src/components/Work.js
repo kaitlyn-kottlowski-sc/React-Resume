@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 function Work () {
     const AEGtasks = ["Added significant features to AEG's United Way Silent Auction site using AngularJS and Visual Code.",
         "Added multiple pages and functionalities to AEG's Testing Tools site using C# MVC and Visual Studio",
-        "Used Azure DevOps and Microsoft Teams to communicate about bugs, stores, and tasks to work on for all of AEG\'s websites and its insurance application."]
+        "Used Azure DevOps and Microsoft Teams to communicate about bugs, stores, and tasks to work on for all of AEG's websites and its insurance application."]
     const AAAtasks = ["Assist in the creation and maintenance" +
     " of reports, databases, system processes, and documentation",
         "Update and create reports, imports/exports, and workflows with CRM and Excel."];

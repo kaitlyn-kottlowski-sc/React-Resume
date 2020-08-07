@@ -13,7 +13,7 @@ function Projects () {
     return (
         <div className="page-container">
             <h1>Projects</h1>
-            <Project title="Simpson College History App"
+            <Project title="Simpson College Tour"
                      time="September 2019 - April 2020"
                     description="This Android app was created for the Simpson College History Department
                     and Iowa History Center. Google Maps and Geolocation are included in the app
@@ -33,7 +33,7 @@ function Projects () {
                      Both of my partners were commuters, and since they were likely to be home at night,
                      planning a time to work together was difficult. Additionaly, one partner was more focused on what they were doing rather than the group,
                       I did most of the communicating to let my partners know what I would be working on to double check that we were not overlapping tasks.
-                      I decided to work on the leaderboard, using a json file to store the scores and a scroll view to display them. At the moment, the game is not
+                      I decided to work on the leaderboard, using a json file to store the scores. At the moment, the game is not
                       finished, so I have given the user the ability to write in their username and score to show how the leaderboard works.
                       On top of the leaderboard, I took on the responsibilities of the settings page. I added background music and the functionality
                       to turn it on and off. I also gave the game a fun twist by allowing the user to change the theme of the game. I had
@@ -49,14 +49,14 @@ function Projects () {
 function Project(props) {
     return (
         <div style={{textAlign: 'left'}}>
-            <h2 style={{marginLeft: '50px', marginRight: '50px', height: '10px'}}>{props.title} | <i>{props.time}</i></h2>
-            <h4 className="courses" >DESCRIPTION:<br/> {props.description}</h4>
-            <table style={{marginLeft: '50px', marginRight: '50px'}}>
+            <h2 className="project-title">{props.title} | <i>{props.time}</i></h2>
+            <h4 className="project-description" >DESCRIPTION:<br/> {props.description}</h4>
+            <table className="project-images-table">
                 <tr>
-                    <td ><img style={{width: '175px', borderRadius: '30px'}} src={props.image1}/></td>
-                    <td ><img style={{width: '175px', borderRadius: '30px'}} src={props.image2}/></td>
-                    <td ><img style={{width: '175px', borderRadius: '30px'}} src={props.image3}/></td>
-                    <td ><img style={{width: '175px', borderRadius: '30px'}} src={props.image4}/></td>
+                    <td ><img style={{width: '320px', borderRadius: '30px'}} src={props.image1}/></td>
+                    <td ><img style={{width: '320px', borderRadius: '30px'}} src={props.image2}/></td>
+                    <td ><img style={{width: '320px', borderRadius: '30px'}} src={props.image3}/></td>
+                    <td ><img style={{width: '320px', borderRadius: '30px'}} src={props.image4}/></td>
                 </tr>
             </table>
         </div>
